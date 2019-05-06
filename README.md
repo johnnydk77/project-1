@@ -23,7 +23,7 @@ Day 6	Present	Incomplete
 
 ## Project Description
 
-Its time to plag Connect Four! That family friendly classic that incorporates strategy and cunning to defeat the opponent!
+It's time to play Connect Four! That family friendly classic that incorporates strategy and cunning to defeat the opponent!
 
 Create a game of Connect Four for two competing players. The players will be able to place a game piece into the game board and have that move give them feedback. Each player will be able to place a piece into the gameboard until a winner is announced! The game will include a CSS animation that will reward whomever reaches the unltimate goal of placing four pieces in a row!
 
