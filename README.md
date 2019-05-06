@@ -7,11 +7,17 @@ This schedule will be used to keep track of your progress throughout the week an
 You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
 
 Day	Deliverable	Status
+
 Day 1	Project Description	Incomplete
+
 Day 2	Wireframes / Priority Matrix / Functional Components	Incomplete
+
 Day 3	Core Application Structure (HTML, CSS, etc.)	Incomplete
+
 Day 4	Pseudocode / JS MVP	Incomplete
+
 Day 5	Full Working JS	Incomplete
+
 Day 6	Present	Incomplete
 
 
@@ -55,13 +61,21 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 Component	Priority	Estimated Time	Time Invetsted	Actual Time
 Wireframes	H	3hrs	0hrs	2.5hrs
+
 Project Worksheet	M	1hrs	0hrs	0hrs
+
 Game Init	H	4hrs	0hrs	0hrs
+
 Selecting Box	H	4hrs	0hrs	0hrs
+
 Switching Players	H	4hrs	0hrs	0hrs
+
 Winning Logic - One Row Only	H	4hrs	0hrs	0hrs
+
 Landing Page	L	3hrs	0hrs	0hrs
+
 Game Reset	L	3hrs	0hrs	0hrs
+
 Total	H	27hrs	0hrs	0hrs
 
 
