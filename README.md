@@ -8,9 +8,9 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 Day	Deliverable	Status
 
-Day 1	Project Description	Incomplete
+Day 1	Project Description	Complete
 
-Day 2	Wireframes / Priority Matrix / Functional Components	Incomplete
+Day 2	Wireframes / Priority Matrix / Functional Components	Complete
 
 Day 3	Core Application Structure (HTML, CSS, etc.)	Incomplete
 
