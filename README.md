@@ -39,16 +39,33 @@ https://docs.google.com/document/d/1FQdASinsUyHjOQZpCHHVTIDlDtfhqT6K5lMvt4uM8XQ/
 
 #### MVP 
 
-PostMVP
-Landing Page
-Game reset
-Winning logic for all combo's
+
+// - Start Game
+Add eventListener for moves
+
+
+// - Switch Turns
+If else statements {}
+
+
+// - Pieces played in cells remain in place.
+
+
+// - Display Message for player’s turns
+
+
+
+
+
 
 #### PostMVP 
 
-PostMVP
-Landing Page
+Track Player’s turn and alert to moves.
+
+Check for winner (number of ways to win)
+
 Game reset
+
 Winning logic for all combo's
 
 Also want to add CSS animation that rewards winner with a game piece changing and becoming very special!
@@ -128,9 +145,7 @@ Once a winner has been declared the game will reset and be able to play again.
 
 Track moves on the gameboard.
 
-Track Player’s turn and alert to moves.
 
-Check for winner (number of ways to win)
 				
 // - Start Game
 Add eventListener for moves
@@ -138,9 +153,11 @@ Add eventListener for moves
 // - Switch Turns
 If else statements {}
 
+// - Pieces played in cells remain in place.
+
 // - Display Message for player’s turns
 
-// - Pieces played in cells remain in place.
+
 
 // - Check for winner
 Winning combos (Declare Winner)
