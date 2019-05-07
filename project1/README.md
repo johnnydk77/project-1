@@ -9,9 +9,9 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 Day	Deliverable	Status
 
-Day 1	Project Description	Incomplete
+Day 1	Project Description	Complete
 
-Day 2	Wireframes / Priority Matrix / Functional Components	Incomplete
+Day 2	Wireframes / Priority Matrix / Functional Components	Complete
 
 Day 3	Core Application Structure (HTML, CSS, etc.)	Incomplete
 
@@ -97,9 +97,9 @@ Anticipated Challenges:
 Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe.
 
 Component	Priority	Estimated Time	Time Invetsted	Actual Time
-Wireframes	H	3hrs	0hrs	2.5hrs
+Wireframes	H	3hrs	0hrs	2.5hrs  
 
-Project Worksheet	M	1hrs	0hrs	0hrs
+Project Worksheet	M	1hrs	0hrs	0hrs Check √
 
 Game Init	H	4hrs	0hrs	0hrs
 
