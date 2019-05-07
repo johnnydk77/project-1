@@ -1,3 +1,66 @@
-body {
-    color: blue;
+BODY {
+    text-align: center;
+    background-color: rgb(204, 204, 174)
+    
+  }
+  H1 {
+    font-size: 50px;
+    color: rgb(180, 64, 43);
+    font-family: 'Syncopate', sans-serif;
+  }
+   #label {
+       display: flex;
+       justify-content: center;
+       color: rgb(24, 75, 75);
+       font-family: 'Coda Caption', sans-serif;
+   }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    display: table; 
+    width: 600px;
+    height: 450px;
+    padding: 10px;
+    background: rgb(35, 34, 110);
+    border: 1px solid rgb(14, 76, 170);
+    border-radius: 5px;
+    border-spacing: 10px 10px;
+  } 
+
+  button {
+    align-content: center;
+    background-color: rgb(187, 241, 239);
+    font-family: 'Coda Caption', sans-serif;
+    font-size: 1.5em;
+    border: 4px solid rgb(180, 64, 43);
+    border: 4px solid;
+   
+  }
+  
+  .row {
+    display: table-row;
+  }
+  
+  .cell {
+    display: flex;
+     display: table-cell;
+    background-color: rgb(196, 193, 190);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 2px; 
+  }
+
+  
+  span {
+      color: rgb(73, 54, 54);
+  }
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
 }
