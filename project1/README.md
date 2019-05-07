@@ -1,3 +1,4 @@
+# project1
 # Project Overview
 
 ## Project Schedule
@@ -34,7 +35,8 @@ https://docs.google.com/document/d/1W2r5doJ_4huqDOu3Fcl4XV7HpURBsDWfqet-H8w8WOE/
 
 ## Priority Matrix
 
-https://docs.google.com/document/d/1FQdASinsUyHjOQZpCHHVTIDlDtfhqT6K5lMvt4uM8XQ/edit 
+https://docs.google.com/document/d/1FQdASinsUhttps://drive.google.com/open?id=1kjeE9-
+
 
 ### MVP/PostMVP - 5min
 
@@ -48,6 +50,7 @@ Add eventListener for moves
 
 // - Switch Turns
 If else statements {}
+https://drive.google.com/open?id=1kjeE9-YAC0AmAn8SOX_xiV9roc7pQqQd
 
 
 // - Pieces played in cells remain in place.
@@ -95,11 +98,12 @@ Anticipated Challenges:
 
 Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe.
 
-| Component| Priority| Estimated Time| Time Invetsted| Actual Time|
-| --- | :---: | :---: | :---: | :---:|
-|Wireframes|	H|	3hrs|	0hrs|	2.5hrs|
-|Project Worksheet|	M|1hrs	|0hrs	|0hrs|
-|Game Init|	H|	4hrs|	0hrs|	0hrs|
+Component	Priority	Estimated Time	Time Invetsted	Actual Time
+Wireframes	H	3hrs	0hrs	2.5hrs  
+
+Project Worksheet	M	1hrs	0hrs	0hrs Check √
+
+Game Init	H	4hrs	0hrs	0hrs
 
 Selecting Box	H	4hrs	0hrs	0hrs
 
