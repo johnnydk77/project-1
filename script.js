@@ -3,18 +3,17 @@ window.onload = function () {
 
 
     let playerColor = "red";
-    reserveArray = [];
+    let reserveArray = [];
 
     let playerOne = document.querySelectorAll('.cell')
-    // console.log(playerOne);
 
     playerOne.forEach((slot) => {
         slot.addEventListener('click', dropCircle)
+        
 
     });
 
     function dropCircle(event) {
-        //this.classList.add('red');
         let id = parseInt(this.getAttribute('id'));
         let move;
         //Mohammed helped me here with parseInt to convert 'id' to integers to compare values
@@ -36,7 +35,12 @@ window.onload = function () {
         } else {
             playerColor = 'red'
         }
+    console.log(playerColor)
         reserveArray.push(move);
+
+        document.getElementById('label').textContent = `${playerColor}'s Go!`;
+       
+
 
         // console.log(reserveArray)
     }
