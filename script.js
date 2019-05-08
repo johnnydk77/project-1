@@ -7,35 +7,64 @@ window.onload = function () {
     // let checkWinningCombos = [];
     let playerOne = document.querySelectorAll('.cell')
 
-//     const winningCombos = [
-//         [0, 7, 14, 21], [7, 14, 21, 28], [14, 21, 28, 35],
-//         [1, 8, 15, 22], [8, 15, 22, 29], [15, 22, 29, 36],
-//         [2, 9, 16, 23], [9, 16, 23, 30], [16, 23, 30, 37],
-//         [3, 10, 17, 24], [10, 17, 24, 31], [17, 24, 31, 38],
-//         [4, 11, 18, 25], [11, 18, 25, 32], [18, 25, 32, 39],
-//         [5, 12, 19, 26], [12, 19, 26, 33], [19, 26, 33, 40],
-//         [6, 13, 20, 27], [13, 20, 27, 34], [20, 27, 34, 41],
-//         [0, 1, 2, 3], [1, 2, 3, 4], [2, 3, 4, 5], [3, 4, 5, 6],
-//         [7, 8, 9, 10], [8, 9, 10, 11], [9, 10, 11, 12], [10, 11, 12, 13],
-//         [14, 15, 16, 17], [15, 16, 17, 18], [16, 17, 18, 19], [17, 18, 19, 20],
-//         [21, 22, 23, 24], [22, 23, 24, 25], [23, 24, 25, 26], [24, 25, 26, 27],
-//         [28, 29, 30, 31], [29, 30, 31, 32], [30, 31, 32, 33], [31, 32, 33, 34],
-//         [35, 36, 37, 38], [36, 37, 38, 39], [37, 38, 39, 40], [38, 39, 40, 41],
-//         [0, 8, 16, 24], [7, 15, 23, 31], [14, 22, 30, 38],
-//         [1, 9, 17, 25], [8, 16, 24, 32], [15, 23, 31, 39],
-//         [2, 10, 18, 26], [9, 17, 25, 33], [16, 24, 32, 40],
-//         [3, 11, 19, 27], [10, 18, 26, 34], [17, 25, 33, 41],
-//         [3, 9, 15, 21], [4, 10, 16, 22], [5, 11, 17, 23], [6, 12, 18, 24],
-//         [10, 16, 22, 28], [11, 17, 23, 29], [12, 18, 24, 30], [13, 19, 25, 31],
-//         [17, 23, 29, 35], [18, 24, 30, 36], [19, 25, 31, 37], [20, 26, 32, 38]
+    // const winningCombos = [
+    //     [0, 7, 14, 21], [7, 14, 21, 28], [14, 21, 28, 35],
+    //     [1, 8, 15, 22], [8, 15, 22, 29], [15, 22, 29, 36],
+    //     [2, 9, 16, 23], [9, 16, 23, 30], [16, 23, 30, 37],
+    //     [3, 10, 17, 24], [10, 17, 24, 31], [17, 24, 31, 38],
+    //     [4, 11, 18, 25], [11, 18, 25, 32], [18, 25, 32, 39],
+    //     [5, 12, 19, 26], [12, 19, 26, 33], [19, 26, 33, 40],
+    //     [6, 13, 20, 27], [13, 20, 27, 34], [20, 27, 34, 41],
+    //     [0, 1, 2, 3], [1, 2, 3, 4], [2, 3, 4, 5], [3, 4, 5, 6],
+    //     [7, 8, 9, 10], [8, 9, 10, 11], [9, 10, 11, 12], [10, 11, 12, 13],
+    //     [14, 15, 16, 17], [15, 16, 17, 18], [16, 17, 18, 19], [17, 18, 19, 20],
+    //     [21, 22, 23, 24], [22, 23, 24, 25], [23, 24, 25, 26], [24, 25, 26, 27],
+    //     [28, 29, 30, 31], [29, 30, 31, 32], [30, 31, 32, 33], [31, 32, 33, 34],
+    //     [35, 36, 37, 38], [36, 37, 38, 39], [37, 38, 39, 40], [38, 39, 40, 41],
+    //     [0, 8, 16, 24], [7, 15, 23, 31], [14, 22, 30, 38],
+    //     [1, 9, 17, 25], [8, 16, 24, 32], [15, 23, 31, 39],
+    //     [2, 10, 18, 26], [9, 17, 25, 33], [16, 24, 32, 40],
+    //     [3, 11, 19, 27], [10, 18, 26, 34], [17, 25, 33, 41],
+    //     [3, 9, 15, 21], [4, 10, 16, 22], [5, 11, 17, 23], [6, 12, 18, 24],
+    //     [10, 16, 22, 28], [11, 17, 23, 29], [12, 18, 24, 30], [13, 19, 25, 31],
+    //     [17, 23, 29, 35], [18, 24, 30, 36], [19, 25, 31, 37], [20, 26, 32, 38]
 
-//     }
-// //This is where I need to check on how to create a function that uses the groups of 4 that will win
-        
+    // ];
+    // //This is where I need to check on how to create a function that uses the groups of 4 that will win
 
-    // function checkWinningCombos() {
-        
+    // let redWin = ["red", "red", "red", "red"];
+    // let yellowWin = ["yellow", "yellow", "yellow", "yellow"];
+
+
+    // function WinningCombos() {
+    //     for (i = 0; i < winningCombos.length[i]; i++) {
+
+    //         for (j = 0; j < winningCombos.length[j]; j++) {
+
+    //         } 
+    //         reserveArray.push(winningCombos[i][j]) 
+
+    //         //     if (reserveArray ==== );
+    //         //     alert ("You Win!!!")
+    //         // }
+    //         // else  (reserveArray === "yellow")
+    //         // alert("You Win!!!")
+    //             console.log(winningCombos)
+    //     }
     // }
+
+    // function win() {
+    //     for (let i = 0; i <= 2; i++)
+    //         if (winnerX[0] === winner[i][0] && winnerX[1] === winner[i][1] && winnerX[2] === winner[i][2]) {
+    //             alert("Player X wins!");
+    //         } else if
+    //             (winnerO[0] === winner[i][0] && winnerO[1] === winner[i][1] && winnerO[2] === winner[i][2]) {
+    //             alert("Player O wins!");
+    //         }
+    // };
+
+    // console.log("you win")
+
 
 
     playerOne.forEach((slot) => {
@@ -47,7 +76,7 @@ window.onload = function () {
     function dropCircle(event) {
         let id = parseInt(this.getAttribute('id'));
         let move;
-        //Mohammed helped me here with parseInt to convert 'id' to integers to compare values
+        //Mohammed helped me here with parseInt to convert 'id' to compare values
         for (let i = id; i < playerOne.length; i += 7) {
 
             if (playerOne[i].classList.contains('red')) {
@@ -58,29 +87,22 @@ window.onload = function () {
             }
             move = i;
         }
+    
+    
+    playerOne[move].classList.add(playerColor);
 
-        playerOne[move].classList.add(playerColor);
-
-        if (playerColor === 'red') {
-            playerColor = 'yellow'
-        } else {
-            playerColor = 'red'
-        }
-        // console.log(playerColor)
-        reserveArray.push(move);
-
-        document.getElementById('label').textContent = `${playerColor}'s Go!`;
-
-
-
-        // console.log(reserveArray)
+    if (playerColor === 'red') {
+        playerColor = 'yellow'
+    } else {
+        playerColor = 'red'
     }
+    // console.log(playerColor)
+    reserveArray.push(move);
+
+    document.getElementById('label').textContent = `${playerColor}'s Go!`;
 
 
+
+    // console.log(reserveArray)
 }
-
-
-
-
-
-
+}
