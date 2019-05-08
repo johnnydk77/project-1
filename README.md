@@ -12,7 +12,7 @@ Day 1	Project Description	Complete
 
 Day 2	Wireframes / Priority Matrix / Functional Components	Complete
 
-Day 3	Core Application Structure (HTML, CSS, etc.)	Incomplete
+Day 3	Core Application Structure (HTML, CSS, etc.)	Complete
 
 Day 4	Pseudocode / JS MVP	Incomplete
 
@@ -101,15 +101,15 @@ Time frames are also key in the development cycle.  You have limited time to cod
 |Project Worksheet|	M|1hrs	|0hrs	|0hrs|
 |Game Init|	H|	4hrs|	0hrs|	0hrs|
 
-Selecting Box	H	4hrs	0hrs	0hrs
+Selecting Box	H	4hrs	0hrs	0hrs  check √
 
-Switching Players	H	4hrs	0hrs	0hrs
+Switching Players	H	4hrs	0hrs	0hrs  check √
 
 Winning Logic - One Row Only	H	4hrs	0hrs	0hrs
 
 Landing Page	L	3hrs	0hrs	0hrs
 
-Game Reset	L	3hrs	0hrs	0hrs
+Game Reset	L	3hrs	0hrs	0hrs check √
 
 Total	H	27hrs	0hrs	0hrs
 
