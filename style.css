@@ -1,42 +1,52 @@
 BODY {
     text-align: center;
-    background-color: rgb(204, 204, 174)
+    background-color: rgb(223, 206, 160)
     
   }
   H1 {
     font-size: 50px;
     color: rgb(180, 64, 43);
     font-family: 'Syncopate', sans-serif;
+    text-shadow: 1px 0 rgb(71, 67, 67), 0 1px  rgb(71, 67, 67), 1px 0  rgb(71, 67, 67), 0 1px  rgb(71, 67, 67);
   }
    #label {
        display: flex;
        justify-content: center;
-       color: rgb(24, 75, 75);
+       color: red;
        font-family: 'Coda Caption', sans-serif;
        font-size: 35px;
-   }
+       text-shadow: 1px 0 rgb(71, 67, 67), 0 1px  rgb(71, 67, 67), 1px 0  rgb(71, 67, 67), 0 1px  rgb(71, 67, 67);
+
+    }
+   
   
   .container {
     display: flex;
-    justify-content: center;
-    margin: 20px auto;
+    justify-content: left;
+    margin: 10px auto;
     display: table; 
     width: 600px;
     height: 450px;
     padding: 10px;
     background: rgb(35, 34, 110);
     border: 1px solid rgb(14, 76, 170);
-    border-radius: 5px;
-    border-spacing: 10px 10px;
+    border-radius: 8px;
+    border-spacing: 8px 8px;
   } 
 
   button {
-    align-content: center;
-    background-color: rgb(187, 241, 239);
+    align-content: right;
+    background-color: rgb(226, 240, 245);
     font-family: 'Coda Caption', sans-serif;
     font-size: 1.5em;
-    border: 4px solid rgb(180, 64, 43);
+    border: 5px;
     border: 4px solid;
+    color:rgb(133, 30, 12);
+    text-shadow: 0.5px 0 rgb(71, 67, 67), 0 0.5px  rgb(71, 67, 67), 0.5px 0  rgb(71, 67, 67), 0 0.5px  rgb(71, 67, 67);
+
+    
+   
+    
    
   }
   
@@ -57,11 +67,18 @@ BODY {
   
   span {
       color: rgb(73, 54, 54);
+      font-size: 75px;
+      text-shadow: 1px 0 black, 0 1px black, 1px 0 black, 0 1px black
   }
 .red {
-    background-color: red;
+    background-color: rgb(199, 43, 43);
 }
 
 .yellow {
-    background-color: yellow;
+    background-color: rgb(196, 196, 44);
 }
+
+
+
+
+

@@ -6,7 +6,7 @@ window.onload = function () {
     let reserveArray = [];
     let checkWinningCombos = [];
     let playerOne = document.querySelectorAll('.cell')
-    
+
 
     const winningCombos = [
         [0, 7, 14, 21], [7, 14, 21, 28], [14, 21, 28, 35],
@@ -35,56 +35,50 @@ window.onload = function () {
 
     let redWin = ["red", "red", "red", "red"];
     let yellowWin = ["yellow", "yellow", "yellow", "yellow"];
-    
+
     //
 
     function WinningCombos() {
-    console.log(checkWinningCombos)
-checkWinningCombos = []
+        console.log(checkWinningCombos)
+        checkWinningCombos = []
         // console.log("Winning combos runs");
-        for (let i = 0; i < winningCombos.length; i++){
-            // let currentBoxIndex = winningCombos[combo][0];
-            // console.log(playerOne[currentBoxIndex]);
-        
+        for (let i = 0; i < winningCombos.length; i++) {
+
+
             let newArr = []
             for (let j = 0; j < winningCombos[i].length; j++) {
-               
+
                 newArr.push(playerOne[winningCombos[i][j]].classList[1])
-                
+
             }
             checkWinningCombos.push(newArr);
-      
-        // return;
 
-       
-  
-    }
 
-    for (let i = 0; i < checkWinningCombos.length; i++) {
-        let redCount = 0
-    let yellowCount = 0
-    console.log(checkWinningCombos[i])
-        for(let j = 0; j<redWin.length; j++){
-            if (checkWinningCombos[i][j] === redWin[j]) {
-               redCount +=1
-            }
-            else if
-            (checkWinningCombos[i][j] === yellowWin[j]) {
-                yellowCount +=1
-            }
         }
-    
-        if (redCount ===4 || yellowCount ===4 ){
-            alert("winner!")
+
+
+        for (let i = 0; i < checkWinningCombos.length; i++) {
+            let redCount = 0
+            let yellowCount = 0
+            // console.log(checkWinningCombos[i])
+            for (let j = 0; j < redWin.length; j++) {
+                if (checkWinningCombos[i][j] === redWin[j]) {
+                    redCount += 1
+                }
+                else if
+                    (checkWinningCombos[i][j] === yellowWin[j]) {
+                    yellowCount += 1
+                }
+            }
+            //Big ups to my girl Rachel for helping me figure out the logic of this extra loop!
+            if (redCount === 4 || yellowCount === 4) {
+            setTimeout(function () { alert(`Winner!`); }, 100)
+             
+            }
+            
         }
-        
-    }
 
     }
-
-
-
-
 
 
 
@@ -108,27 +102,20 @@ checkWinningCombos = []
             }
             move = i;
         }
-
-
         playerOne[move].classList.add(playerColor);
+
         WinningCombos();
-reserveArray.push({id:move, playerColor});
+
+        reserveArray.push({ id: move, playerColor });
         if (playerColor === 'red') {
             playerColor = 'yellow'
         } else {
             playerColor = 'red'
-            
+
         }
-        // console.log(playerColor)
-        
-        // console.log(reserveArray)
-
-        document.getElementById('label').textContent = `${playerColor}'s Go!`;
-
-
-
-        // console.log(reserveArray)
+        document.getElementById('label').textContent = `${playerColor}'s go!`;
+        document.getElementById('label').style.color = playerColor
     }
-
-
 }
+
+
