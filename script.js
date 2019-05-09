@@ -1,6 +1,7 @@
 window.onload = function () {
     const body = document.body;
-
+    const span = document.querySelector('span')
+    console.dir(span)
 
     let playerColor = "red";
     let reserveArray = [];
@@ -79,7 +80,7 @@ window.onload = function () {
         }
 
     }
-
+ 
 
 
     playerOne.forEach((slot) => {
@@ -115,7 +116,8 @@ window.onload = function () {
         }
         document.getElementById('label').textContent = `${playerColor}'s go!`;
         document.getElementById('label').style.color = playerColor
-    }
+
+    
 }
 
-
+}
