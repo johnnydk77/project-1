@@ -1,6 +1,7 @@
 BODY {
     text-align: center;
-    background-color: rgb(223, 206, 160)
+    background:linear-gradient(#CCB586, 75%, #deeba7);
+   
     
   }
   H1 {
@@ -9,6 +10,9 @@ BODY {
     font-family: 'Syncopate', sans-serif;
     text-shadow: 1px 0 rgb(71, 67, 67), 0 1px  rgb(71, 67, 67), 1px 0  rgb(71, 67, 67), 0 1px  rgb(71, 67, 67);
     animation: tracking-in-expand 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    margin-bottom: 5px;
+    text-decoration: underline;
+    text-decoration-color: rgb(78, 19, 19);
   }
   
   /* ----------------------------------------------
@@ -21,7 +25,7 @@ BODY {
       opacity: 0;
     }
     40% {
-      opacity: 0.6;
+      opacity: 0.9;
     }
     100% {
       opacity: 1;
@@ -36,6 +40,7 @@ BODY {
        color: red;
        font-family: 'Coda Caption', sans-serif;
        font-size: 35px;
+       text-decoration: underline;
        text-shadow: 1px 0 rgb(71, 67, 67), 0 1px  rgb(71, 67, 67), 1px 0  rgb(71, 67, 67), 0 1px  rgb(71, 67, 67);
 
         
@@ -47,31 +52,27 @@ BODY {
   .container {
     display: flex;
     justify-content: left;
-    margin: 10px auto;
+    margin: 5px auto;
     display: table; 
     width: 600px;
     height: 450px;
     padding: 10px;
     background: rgb(35, 34, 110);
-    border: 1px solid rgb(14, 76, 170);
+    border: 5px solid rgb(73, 54, 54);
     border-radius: 8px;
     border-spacing: 8px 8px;
   } 
 
   button {
     align-content: right;
-    background-color: rgb(226, 240, 245);
+    background-color: rgb(196, 193, 190);
     font-family: 'Coda Caption', sans-serif;
     font-size: 1.5em;
     border: 5px;
     border: 4px solid;
-    color:rgb(133, 30, 12);
+    color: rgb(73, 54, 54);
     text-shadow: 0.5px 0 rgb(71, 67, 67), 0 0.5px  rgb(71, 67, 67), 0.5px 0  rgb(71, 67, 67), 0 0.5px  rgb(71, 67, 67);
-
-    
-   
-    
-   
+ 
   }
   
   .row {
@@ -84,6 +85,7 @@ BODY {
     background-color: rgb(196, 193, 190);
     width: 50px;
     height: 50px;
+    border:5px solid rgb(73, 54, 54);
     border-radius: 50%;
     margin: 2px; 
   }
@@ -116,19 +118,19 @@ BODY {
   span {
       color: rgb(73, 54, 54);
       font-size: 75px;
-      text-shadow: 1px 0 black, 0 1px black, 1px 0 black, 0 1px black;
+      text-shadow: 1.5px 0 black, 0 1px black, 1px 0 black, 0 1px black;
       animation: rotate-scale-up 2s linear both;
     display: inline-block;
 }
   
  
 .red {
-    background-color: rgb(199, 43, 43);
+    background-color: red;
    
 }
 
 .yellow {
-    background-color: rgb(196, 196, 44);
+    background-color: yellow;
 }
 
 
