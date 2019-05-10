@@ -1,6 +1,6 @@
 BODY {
     text-align: center;
-    background-image: radial-gradient(#f8f0aa,90%,rgb(143, 116, 62) );
+    background: rgb(248, 224, 171);
    
     
   }
@@ -118,7 +118,7 @@ BODY {
   span {
       color: rgb(73, 54, 54);
       font-size: 75px;
-      text-shadow: 1.5px 0 black, 0 1px black, 1px 0 black, 0 1px black;
+      text-shadow: 1.5px 0 red, 0 1px red, 1px 0 red, 0 1px red;
       animation: rotate-scale-up 2s linear both;
     display: inline-block;
 }
