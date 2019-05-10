@@ -8,15 +8,15 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 Day	Deliverable	Status
 
-Day 1	Project Description	Complete
+Day 1	Project Description	Complete √
 
-Day 2	Wireframes / Priority Matrix / Functional Components	Complete
+Day 2	Wireframes / Priority Matrix / Functional Components	Complete √
 
-Day 3	Core Application Structure (HTML, CSS, etc.)	Complete
+Day 3	Core Application Structure (HTML, CSS, etc.)	Complete √
 
-Day 4	Pseudocode / JS MVP	Incomplete
+Day 4	Pseudocode / JS MVP	Complete √
 
-Day 5	Full Working JS	Complete
+Day 5	Full Working JS	Complete √
 
 Day 6	Present	Incomplete
 
@@ -68,7 +68,9 @@ Game reset check √
 
 
 
-add CSS animation that rewards winner with a game piece changing and becoming very special!
+add CSS animation that rewards winner with a game piece changing and becoming very special! 
+
+I got two CSS animations.......so? Complete √
 
 GAME COMPONENTS.
 
@@ -86,7 +88,7 @@ Anticipated Challenges:
 
   Getting js to be fully functional and able work without bugs.
   
-  Having all desing elements work with DOM elements properly.
+  Having all design elements work with DOM elements properly.
   
 
 
@@ -147,6 +149,8 @@ Use this section to include a brief code snippet of functionality that you are p
     ]
 
     ha,ha,ha,ha.
+
+    But actually.....this snipet. Merely because after all the more complicated code figuring out the icing just about made me cry lol.
 
 ## Change Log
  Use this section to document what changes were made and the reasoning behind those changes.  

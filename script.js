@@ -61,7 +61,6 @@ window.onload = function () {
         for (let i = 0; i < checkWinningCombos.length; i++) {
             let redCount = 0
             let yellowCount = 0
-            // console.log(checkWinningCombos[i])
             for (let j = 0; j < redWin.length; j++) {
                 if (checkWinningCombos[i][j] === redWin[j]) {
                     redCount += 1
